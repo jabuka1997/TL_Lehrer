@@ -44,7 +44,7 @@ public class TERMINE extends Fragment {
                              Bundle savedInstanceState) {
 
         View view =  inflater.inflate(R.layout.fragment_termine, container, false);
-
+        getActivity().setTitle("Termine");
 
         String termine14[] = {"6 November 2016", "3 Jänner 2016", "12 Februar2016", "6 November 2016", "6 November 2016",
                 "11 Februar2016", "1 Juni 2016",
@@ -55,7 +55,7 @@ public class TERMINE extends Fragment {
 
 
 
-        getActivity().setTitle("Termine");
+
 
 
         adapter = new ArrayAdapter<String>(getActivity().getApplicationContext(), R.layout.xmlterminliste, R.id.meinetermineliste, termine14);

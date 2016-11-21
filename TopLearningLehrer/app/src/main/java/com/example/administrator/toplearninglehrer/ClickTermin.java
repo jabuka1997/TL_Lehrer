@@ -24,7 +24,7 @@ public class ClickTermin extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        getActivity().setTitle("TerminInfo");
+        getActivity().setTitle("Termin Info");
         return inflater.inflate(R.layout.fragment_click_termin, container, false);
     }
 

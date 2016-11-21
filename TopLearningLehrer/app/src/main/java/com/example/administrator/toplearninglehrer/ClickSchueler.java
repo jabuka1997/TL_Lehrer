@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Abrechnung extends Fragment {
+public class ClickSchueler extends Fragment {
 
 
-    public Abrechnung() {
+    public ClickSchueler() {
         // Required empty public constructor
     }
 
@@ -23,8 +23,10 @@ public class Abrechnung extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("Abrechnung");
-        return inflater.inflate(R.layout.fragment_abrechnung, container, false);
+        View view = inflater.inflate(R.layout.fragment_click_schueler, container, false);
+        getActivity().setTitle("Schüler");
+
+        return view;
     }
 
 }

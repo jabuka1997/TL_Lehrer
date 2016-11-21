@@ -3,34 +3,44 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_schueler"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="Schüler" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_anfragen"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Anfragen" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_termine"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Termine" />
+
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Abrechnungen">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_abrechnung"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Abrechnungen" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_abliste"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Abrechnungsliste" />
         </menu>
     </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Profil" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Logout" />
+
+    </group>
 
 </menu>

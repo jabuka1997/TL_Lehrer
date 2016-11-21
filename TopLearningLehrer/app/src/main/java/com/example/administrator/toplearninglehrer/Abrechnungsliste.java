@@ -57,7 +57,7 @@ public class Abrechnungsliste extends Fragment {
 
 
 
-        getActivity().setTitle("Abrechnungsliste");
+        getActivity().setTitle("Abrechnungen");
 
 
         adapter = new ArrayAdapter<String>(getActivity().getApplicationContext(), R.layout.xmlabrechnungsliste, R.id.abrechnungs_liste, termine12);

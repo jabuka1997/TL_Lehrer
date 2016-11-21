@@ -57,7 +57,7 @@ public class Anfragen extends Fragment {
 
 
 
-        getActivity().setTitle("Anfragenliste");
+        getActivity().setTitle("Anfragen");
 
 
         adapter = new ArrayAdapter<String>(getActivity().getApplicationContext(), R.layout.xmlanfragenliste, R.id.anfragen_liste, termine111);
