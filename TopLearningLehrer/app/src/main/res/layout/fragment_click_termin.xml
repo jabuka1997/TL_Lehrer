@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.toplearninglehrer.ClickTermin">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextClock
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:id="@+id/textClock"
+        android:textSize="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Termin Information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textClock"
+        android:layout_alignStart="@+id/textClock"
+        android:layout_marginTop="57dp"
+        android:textSize="30dp"
+        android:id="@+id/textView4" />
+
+</RelativeLayout>
